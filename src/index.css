@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-orange-special: rgb(242, 116, 13);
+}
+
+.text-orange-special {
+  color: var(--color-orange-special);
+}
+
+.bg-orange-special {
+  background-color: var(--color-orange-special);
+}
+.border-orange-special {
+  border-color: var(--color-orange-special);
+}
